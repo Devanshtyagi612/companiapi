@@ -7,6 +7,7 @@ from .serializers import Cpi,EmployeeSerializer
 
 
 # Create your views here.
+# follow the code
 
 class CompanyViewSet(viewsets.ModelViewSet):
     queryset=Company.objects.all()
